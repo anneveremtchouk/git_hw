@@ -28,12 +28,16 @@
 > git remote add origin https://github.com/anneveremtchouk/git_hw.git
 3. Push your local `githomework1` repository to GitHub
 4. Include your repository URL in your submission
+# https://github.com/anneveremtchouk/git_hw
 
 ### Task 3
 1. Create a new branch called `playing-with-bash`
 2. Create 5 empty files with the names up to you
+> touch task_3_1.txt task_3_2.txt task_3_3.txt task_3_4.txt task_3_5.txt
 3. Use `echo` into the 5 empty files a few sentences about anything
+> echo "Task_3_5">task_3_5.txt
 4. Stage, commit and push your work on GitHub
+> git push --set-upstream origin playing-with-bash
 5. Open up a pull request
 
 ### Submission
